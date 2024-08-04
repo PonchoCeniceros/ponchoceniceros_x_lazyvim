@@ -16,3 +16,18 @@
 ```
 
 Mi configuración personal de 💤 [LazyVim](https://github.com/LazyVim/LazyVim). En la siguiente [documentación](https://lazyvim.github.io/installation) se muestra la instalación del proyecto.
+
+## Panel de comandos básicos
+<p align="center">
+  <img src="https://github.com/PonchoCeniceros/ponchoceniceros_x_lazyvim/blob/main/docs/imgs/cmd.png">
+</p>
+
+### Javascript
+<p align="center">
+  <img src="https://github.com/PonchoCeniceros/ponchoceniceros_x_lazyvim/blob/main/docs/imgs/js.png">
+</p>
+
+### Python
+<p align="center">
+  <img src="https://github.com/PonchoCeniceros/ponchoceniceros_x_lazyvim/blob/main/docs/imgs/py.png">
+</p>
