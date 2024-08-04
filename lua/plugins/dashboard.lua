@@ -9,7 +9,7 @@ return {
  | | (_| |  __/ (_) | | | | (__| | | | (_) | |__|  __/ | | | | (_|  __/ | | (_) \__ \
   \ \__,_|_|   \___/|_| |_|\___|_| |_|\___/ \____\___|_| |_|_|\___\___|_|  \___/|___/
    \____/                                                                            
-    ]]
+]]
 
     logo = string.rep("\n", 8) .. logo .. "\n\n"
 
@@ -21,11 +21,11 @@ return {
       config = {
         header = vim.split(logo, "\n"),
         center = {
-          { action = LazyVim.telescope("files"), desc = " Find File", icon = " ", key = "f" },
           { action = "ene | startinsert", desc = " New File", icon = " ", key = "n" },
+          { action = "Telescope find_files", desc = " Find File", icon = " ", key = "f" },
           { action = "Telescope oldfiles", desc = " Recent Files", icon = " ", key = "r" },
           { action = "Telescope live_grep", desc = " Find Text", icon = " ", key = "g" },
-          { action = [[lua LazyVim.telescope.config_files()()]], desc = " Config", icon = " ", key = "c" },
+          -- { action = "Telescope config_files", desc = " Config Files", icon = " ", key = "c" }, -- no se como funciona esta linea
           { action = 'lua require("persistence").load()', desc = " Restore Session", icon = " ", key = "s" },
           { action = "LazyExtras", desc = " Lazy Extras", icon = " ", key = "x" },
           { action = "Lazy", desc = " Lazy", icon = "󰒲 ", key = "l" },
@@ -38,7 +38,6 @@ return {
         end,
       },
     }
-
     for _, button in ipairs(opts.config.center) do
       button.desc = button.desc .. string.rep(" ", 43 - #button.desc)
       button.key_format = "  %s"

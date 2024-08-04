@@ -8,11 +8,12 @@ return {
         hide_dotfiles = false,
         hide_gitignored = true,
         hide_by_name = {
-          -- '.git',
-          -- '.DS_Store',
-          -- 'thumbs.db',
+          ".venv", -- oscurecer los virtualenv
         },
-        never_show = {},
+        never_show = {
+          ".git",
+          ".DS_Store",
+        },
       },
     },
   },
