@@ -17,6 +17,22 @@
 
 Mi configuración personal de 💤 [LazyVim](https://github.com/LazyVim/LazyVim). En la siguiente [documentación](https://lazyvim.github.io/installation) se muestra la instalación del proyecto.
 
+## Selección de Tema
+
+Esta configuración incluye dos temas de color: `catppuccin` (predeterminado) y `onedark`.
+
+Puedes seleccionar el tema al iniciar Neovim utilizando la variable de entorno `NVIM_THEME`.
+
+**Para usar `onedark`:**
+```bash
+NVIM_THEME=onedark nvim
+```
+
+**Para usar `catppuccin` (predeterminado):**
+```bash
+nvim
+```
+
 ## Panel de comandos básicos
 <p align="center">
   <img src="https://github.com/PonchoCeniceros/ponchoceniceros_x_lazyvim/blob/main/docs/imgs/cmd.png">
