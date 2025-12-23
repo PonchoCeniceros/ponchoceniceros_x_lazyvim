@@ -1,21 +1,14 @@
-```
-    ____  ____                  _            ____           _                        
-   / __ \|  _ \ ___  _ __   ___| |__   ___  / ___|___ _ __ (_) ___ ___ _ __ ___  ___ 
-  / / _` | |_) / _ \| '_ \ / __| '_ \ / _ \| |   / _ \ '_ \| |/ __/ _ \ '__/ _ \/ __|
- | | (_| |  __/ (_) | | | | (__| | | | (_) | |__|  __/ | | | | (_|  __/ | | (_) \__ \
-  \ \__,_|_|   \___/|_| |_|\___|_| |_|\___/ \____\___|_| |_|_|\___\___|_|  \___/|___/
-   \____/                                                                            
-                                      ✕
+# Fullstack Workspace
 
-             ██╗      █████╗ ███████╗██╗   ██╗██╗   ██╗██╗███╗   ███╗          Z
-             ██║     ██╔══██╗╚══███╔╝╚██╗ ██╔╝██║   ██║██║████╗ ████║      Z    
-             ██║     ███████║  ███╔╝  ╚████╔╝ ██║   ██║██║██╔████╔██║   z       
-             ██║     ██╔══██║ ███╔╝    ╚██╔╝  ╚██╗ ██╔╝██║██║╚██╔╝██║ z         
-             ███████╗██║  ██║███████╗   ██║    ╚████╔╝ ██║██║ ╚═╝ ██║           
-             ╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝     ╚═══╝  ╚═╝╚═╝     ╚═╝
-```
+[![Neovim](https://img.shields.io/badge/Neovim-0.10+-blueviolet)](https://neovim.io)
+[![LazyVim](https://img.shields.io/badge/LazyVim-Config-ff69b4)](https://github.com/LazyVim/LazyVim)
+[![TypeScript](https://img.shields.io/badge/TypeScript--blue)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-61dafb)](https://reactjs.org/)
+[![Python](https://img.shields.io/badge/Python-3776ab)](https://www.python.org/)
 
-Mi configuración personal de 💤 [LazyVim](https://github.com/LazyVim/LazyVim). En la siguiente [documentación](https://lazyvim.github.io/installation) se muestra la instalación del proyecto.
+🔧 **Entorno de desarrollo completo** con 💤 [LazyVim](https://github.com/LazyVim/LazyVim) optimizado para **fullstack development** con TypeScript, React y Python.
+
+> **Fullstack Workspace**: Configuración profesional de Neovim para productividad máxima en desarrollo web y Machine Learning.
 
 ## 🎨 Selección de Tema
 
@@ -74,6 +67,28 @@ El tema `carbonfox` está optimizado para:
 - **Productividad** - Menor fatiga visual con tonos suaves
 - **Paleta**: Fondo oscuro `#161616` con acentos grises profesionales
 
+## 🎯 Stack Soportado
+
+Este workspace está optimizado para:
+
+### 🌐 **Desarrollo Web Fullstack**
+- **TypeScript** - Tipado estático y autocompletado inteligente
+- **React/Next.js** - Desarrollo de componentes con hooks y TypeScript
+- **Node.js** - Backend y desarrollo de APIs
+- **JavaScript** - Soporte completo con ES6+
+
+### 🐍 **Python & Machine Learning**
+- **Python** - LSP con Pyright para análisis estático
+- **Data Science** - Soporte para pandas, numpy, matplotlib
+- **Machine Learning** - Autocompletado para scikit-learn, TensorFlow, PyTorch
+- **Jupyter** - Integración con notebooks de investigación
+
+### 🛠️ **Herramientas de Productividad**
+- **Git** - Integración completa con Git commands
+- **Testing** - Soporte para Jest, pytest, testing-library
+- **Formatting** - Prettier, Black, y formateo automático
+- **Linting** - ESLint, Pylint, y análisis de código
+
 ## ⚡ Comandos Más Frecuentes
 
 ### 🎹 Notación `<leader>`
@@ -102,7 +117,7 @@ El tema `carbonfox` está optimizado para:
 | `gd` | Ir a definición |
 | `gr` | Ir a referencias |
 | `gi` | Ir a implementación |
-| `K` | Mostrar documentación flotante |
+| `K` | Mostrar documentación flotante mejorada |
 
 ### 🔄 Gestión de Buffers y Ventanas
 | Comando | Descripción |
@@ -139,3 +154,49 @@ El tema `carbonfox` está optimizado para:
 | `<leader>li` | Mostrar información |
 | `F10` | Step over (debug) |
 | `F5` | Start/Continue debug |
+
+## 🌟 Mejoras de Documentación Flotante
+
+Tu configuración ahora incluye **lspsaga.nvim** con mejoras específicas:
+
+### ✨ **Características Principales**
+- **Ventanas flotantes mejoradas** con bordes redondeados
+- **Icons visuales** para diferentes tipos de elementos (🔧 funciones, 🏛️ clases, etc.)
+- **Soporte multi-lenguaje** (TypeScript, Python, JavaScript, React)
+- **Hover persistente** con `<leader>h` para mantener documentación abierta
+- **Navegación de enlaces** con `gx` en documentación
+
+### 🔍 **Para TypeScript Interfaces**
+- Al hacer hover sobre una interface, verás:
+  - Lista completa de métodos disponibles
+  - Firmas de funciones con tipos de parámetros
+  - Documentación integrada sin necesidad de navegar
+  - Tipos de retorno explícitos
+
+### 🐍 **Para Python**
+- Soporte mejorado para docstrings
+- Información de funciones con tipos
+- Documentación de módulos clara y legible
+
+## 📦 Instalación
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/tu-usuario/fullstack-workspace.git ~/.config/nvim
+
+# Iniciar Neovim
+nvim
+```
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Este workspace está diseñado para evolucionar con las mejores prácticas de desarrollo fullstack.
+
+### 📋 **To-Do:**
+- [ ] Agregar soporte para más lenguajes
+- [ ] Configuraciones específicas por proyecto
+- [ ] Integración con más herramientas de desarrollo
+
+---
+
+**⭐ Star este repositorio si te ayuda en tu desarrollo diario!**
