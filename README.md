@@ -163,7 +163,6 @@ Tu configuración ahora incluye **lspsaga.nvim** con mejoras específicas:
 - **Ventanas flotantes mejoradas** con bordes redondeados
 - **Icons visuales** para diferentes tipos de elementos (🔧 funciones, 🏛️ clases, etc.)
 - **Soporte multi-lenguaje** (TypeScript, Python, JavaScript, React)
-- **Hover persistente** con `<leader>h` para mantener documentación abierta
 - **Navegación de enlaces** con `gx` en documentación
 
 ### 🔍 **Para TypeScript Interfaces**
