@@ -5,6 +5,11 @@ return {
     name = "onedark", -- importante para que LazyVim lo encuentre
     config = function()
       require("onedark").setup({
+        -- style = "dark",
+        -- style = "darker",
+        -- style = "deep",
+        -- style = "warm",
+        -- style = "warmer",
         style = "cool",
       })
     end,
@@ -15,6 +20,9 @@ return {
     "catppuccin/nvim",
     name = "catppuccin",
     opts = {
+      -- flavour = "latte",
+      -- flavour = "frappe",
+      -- flavour = "macchiato",
       flavour = "mocha",
     },
   },
